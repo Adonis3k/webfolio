@@ -1,0 +1,43 @@
+.Header {
+    display: flex;
+    justify-content: space-between; /* Aligns children to the sides */
+    flex-direction: row-reverse;
+    padding: 25px; /* Corrected to include 'px' */
+    margin-right: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.navitems {
+    list-style: none;
+    display: flex;
+    color: #391eaf;
+    text-decoration: none;
+    padding: 10px 15px;
+    
+}
+
+.navitems li {
+    margin-left: 20px; .navitems a:hover {
+    /* Styles for hover state */
+    text-decoration: underline;
+}
+}
+.navitems a:hover {
+    /* Styles for hover state */
+    text-decoration: underline;
+}
+.resume-button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+    /* Rest of your button styles */
+}
+
+.resume-button:hover {
+    background-color: #0056b3;
+}

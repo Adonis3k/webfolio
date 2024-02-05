@@ -1,0 +1,19 @@
+
+.hero-container {
+  text-align: left;
+  padding: 100px 20px;
+  margin: 10%;
+  background: #f8f8f8; /* Example background color */
+  /* Add more styling as needed */
+}
+
+.hero-container h1 {
+  margin: 0;
+  font-size: 3rem;
+  /* Style your heading */
+}
+
+.hero-container p {
+  font-size: 1.5rem;
+  /* Style your paragraph */
+}

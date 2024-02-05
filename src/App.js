@@ -1,25 +1,27 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import Header from './components/Header/Header';
+import Hero from './components/Hero/Hero'; 
+import About from './components/About/About';
+import Work from './components/Work/Work';
+import SocialMedia from './components/SocialMedia/SocialMedia';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
 
+const App = () => {
+  const navItems = [
+    { id: 'About', label: 'About' },
+    { id: 'Work', label: 'Work-Section' },
+    { id: 'Experience', label: 'Experience' },
+    { id: 'Contact', label: 'Contact' },
+];
+
+return (
+  <div>
+    <Header />
+    <Hero />
+    <About />
+    <Work />
+   <SocialMedia />
+  </div> 
+);}
 export default App;
