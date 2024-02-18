@@ -1,3 +1,8 @@
-.SocialMedia { 
-    transform: scale(0.5);
+.SocialMedia{
+    max-width: min-content;
 }
+
+ul {
+ list-style: none; 
+}
+

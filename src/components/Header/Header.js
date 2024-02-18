@@ -11,7 +11,8 @@ class Header extends Component {
             <Link to="about-section" smooth={true} duration={1000}>About</Link></li>
             <li>
               <Link to="work-section" smooth={true} duration={1000}>Work</Link></li>
-            <li>Experience</li>
+            <li><Link to="Projects-section" smooth={true} duration={1000}>Projects</Link></li>
+            
             <li>Contact</li>
             <li>
             <a href="/Resume/Resume.pdf" 

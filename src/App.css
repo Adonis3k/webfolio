@@ -1,5 +1,18 @@
-body {
-  
-  background: #214070; 
+
+@font-face {
+  font-family: 'Roboto Mono';
+  src: url('./components/Fonts/Roboto_Mono/RobotoMono-VariableFont_wght.ttf') ;
+  font-weight: normal;
+  font-style: normal;
 }
 
+@font-face {
+  font-family: 'Roboto Mono';
+  src: url('./components/Fonts/Roboto_Mono/RobotoMono-Italic-VariableFont_wght.ttf');
+  font-weight: normal;
+  font-style: italic;
+}
+.body{
+background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}

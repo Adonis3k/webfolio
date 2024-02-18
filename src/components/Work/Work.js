@@ -96,7 +96,7 @@ const Work = () => {
               </div>
             </footer>
           </div>
-           {/* Second Card */}
+           {/* Fith Card */}
         </div> 
         <div className="card">
           <div className="content">
@@ -119,7 +119,7 @@ const Work = () => {
           </div>
            
         </div> 
-            {/* Third Card  */}
+            {/* Sixth Card  */}
         <div className="card">
           <div className="content">
             <a href="#">
@@ -139,57 +139,8 @@ const Work = () => {
               </div>
             </footer>
           </div>
-           {/*Fourth Card  */}
-           
+           {/*additioanl cards */}     
         </div> 
-        <div className="card"> 
-          <div className="content">
-            <a href="#">
-              <header>
-                <span>Current Employer</span>
-                <h2><a href="https:settlementhealth.org"></a>Settlement Health & Medical Servicess</h2>
-              </header>
-              <section>
-                <p>
-                  Led facility modernization and clinic renovation projects, ensuring compliance and enhancing longevity.
-                </p>
-              </section>
-            </a>
-            <footer>
-              <div className="author">
-                <a href="#">Adonis Madera</a>
-              </div>
-            </footer>
-          </div>
-           {/* Second Card */}
-        </div> 
-        <div className="card">
-          <div className="content">
-            <a href="#">
-              <header>
-                <span>Current Employer</span>
-                <h2><a href="https:settlementhealth.org"></a>Settlement Health & Medical Servicess</h2>
-              </header>
-              <section>
-                <p>
-                  Led facility modernization and clinic renovation projects, ensuring compliance and enhancing longevity.
-                </p>
-              </section>
-            </a>
-            <footer>
-              <div className="author">
-                <a href="#">Adonis Madera</a>
-              </div>
-            </footer>
-          </div>
-           
-        </div> 
-            {/* Third Card  */}
-
-
-       
-        <h2>SL Green Realty / Emerge212 - Boutique Shared Office Space</h2>
-        <p>Elevated guest services, maintaining high customer satisfaction and property standards.</p>
       </div>
     </div> // Added for clarity, this is the closing tag for id="work-section"
   );

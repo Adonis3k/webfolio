@@ -4,7 +4,9 @@ import Header from './components/Header/Header';
 import Hero from './components/Hero/Hero'; 
 import About from './components/About/About';
 import Work from './components/Work/Work';
-import SocialMedia from './components/SocialMedia/SocialMedia';
+import Projects from './components/Projects/Projects';
+import Contact from './components/Contact/Contact';
+// import SocialMedia from './components/SocialMedia/SocialMedia';
 
 
 const App = () => {
@@ -12,6 +14,7 @@ const App = () => {
     { id: 'About', label: 'About' },
     { id: 'Work', label: 'Work-Section' },
     { id: 'Experience', label: 'Experience' },
+    { id: 'Projects', label: 'Projects' },
     { id: 'Contact', label: 'Contact' },
 ];
 
@@ -21,7 +24,9 @@ return (
     <Hero />
     <About />
     <Work />
-   <SocialMedia />
+    <Projects />
+    <Contact />
+   {/* <SocialMedia /> */}
   </div> 
 );}
 export default App;

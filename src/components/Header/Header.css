@@ -1,17 +1,18 @@
 .Header {
     display: flex;
-    justify-content: space-between; /* Aligns children to the sides */
+    justify-content: space-between; 
     flex-direction: row-reverse;
-    padding: 25px; /* Corrected to include 'px' */
-    margin-right: 10px;
-    margin-top: 10px;
+    padding: 25px; 
     cursor: pointer;
+    font-family: 'Roboto Mono';
+    background: rgb(2,0,36);
+background: #263849
 }
 
 .navitems {
     list-style: none;
     display: flex;
-    color: #391eaf;
+    color: #35bcbf;
     text-decoration: none;
     padding: 10px 15px;
     
@@ -19,17 +20,15 @@
 
 .navitems li {
     margin-left: 20px; .navitems a:hover {
-    /* Styles for hover state */
     text-decoration: underline;
 }
 }
 .navitems a:hover {
-    /* Styles for hover state */
     text-decoration: underline;
 }
 .resume-button {
-    background-color: #007bff;
-    color: white;
+    background-color: #90f6d7;
+    color: 41506b;
     padding: 10px 15px;
     text-decoration: none;
     border-radius: 5px;
