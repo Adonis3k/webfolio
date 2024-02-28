@@ -1,8 +1,19 @@
 .SocialMedia{
-    max-width: min-content;
+    position: fixed; 
+    z-index: 1000;
+    max-width: 4rem;
+    color:aquamarine;
+       
+        bottom: 3rem;   
+        margin: 5rem;
+        margin-bottom: 7rem;
+        margin-left: .10rem;
 }
-
 ul {
  list-style: none; 
 }
+.SocialLogos {
+    padding: 1rem;
+    
 
+}

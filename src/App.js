@@ -6,7 +6,8 @@ import About from './components/About/About';
 import Work from './components/Work/Work';
 import Projects from './components/Projects/Projects';
 import Contact from './components/Contact/Contact';
-// import SocialMedia from './components/SocialMedia/SocialMedia';
+import SocialMedia from './components/SocialMedia/SocialMedia';
+import Logo from './components/Logo/Logo';
 
 
 const App = () => {
@@ -20,13 +21,14 @@ const App = () => {
 
 return (
   <div>
+    <Logo />
     <Header />
     <Hero />
     <About />
     <Work />
     <Projects />
     <Contact />
-   {/* <SocialMedia /> */}
+   <SocialMedia />
   </div> 
 );}
 export default App;

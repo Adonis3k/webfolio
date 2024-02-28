@@ -1,4 +1,7 @@
-
+.background {
+  padding: 5rem;
+  width: 80%;
+}
   
   body {
     float: right;

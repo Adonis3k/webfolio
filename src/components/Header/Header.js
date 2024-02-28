@@ -5,6 +5,7 @@ import { Link } from 'react-scroll';
 class Header extends Component {
     render() {
       return (
+        <div classname="Logo">
         <div className="Header"> 
           <ul className="navitems"> 
           <li>
@@ -13,7 +14,7 @@ class Header extends Component {
               <Link to="work-section" smooth={true} duration={1000}>Work</Link></li>
             <li><Link to="Projects-section" smooth={true} duration={1000}>Projects</Link></li>
             
-            <li>Contact</li>
+            <li><Link to="Contact" smooth={true} duration={1000}>Contact</Link></li>
             <li>
             <a href="/Resume/Resume.pdf" 
                 target="_blank" 
@@ -21,6 +22,7 @@ class Header extends Component {
                 className="resume-button">Resume</a>
                     </li>
           </ul>
+        </div>
         </div>
       );
     }
