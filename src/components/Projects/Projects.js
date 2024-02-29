@@ -23,10 +23,10 @@ const Projects = () => {
                                             <span>Face Recognition Tool </span>
                                             <h2><a href="https://ai-face-detection-c5c2985fed20.herokuapp.com/"></a>Artificial Intelligence Face Recognition</h2>
                                           </header>
-                                          <section style={{ position: 'relative', overflow: 'hidden', height: '30rem' }}>
+                                          <section style={{ position: 'relative', overflow: 'hidden', height: 'auto' }}>
                                             <img style={{ paddingTop: '1rem', width: '100%', transform: 'translateY(-15%)' }} alt='FaceIdentifier' src={FaceIdentifier}/>
                                           </section>
-
+                                        <ul></ul>
                                         </a>
                                         <footer>
                                           <div className="author">
@@ -78,95 +78,10 @@ const Projects = () => {
                                           </div>
                                         </footer>
                                       </div>
-                                       {/*Fourth Card  */}
                                        
                                     </div> 
                             
-                                    {/* <div className="card"> 
-                                      <div className="content">
-                                        <a href="#">
-                                          <header>
-                                            <span>Current Employer</span>
-                                            <h2><a href="https:settlementhealth.org"></a>Settlement Health & Medical Servicess</h2>
-                                          </header>
-                                          <section>
-                                            <p>
-                                              Led facility modernization and clinic renovation projects, ensuring compliance and enhancing longevity.
-                                            </p>
-                                          </section>
-                                        </a>
-                                        <footer>
-                                          <div className="author">
-                                            <a href="#">Adonis Madera</a>
-                                          </div>
-                                        </footer>
-                                      </div>
-                                       {/* Fith Card */}
-                                    </div> 
-                                    <div className="card">
-                                      <div className="content">
-                                        <a href="#">
-                                          <header>
-                                            <span>Current Employer</span>
-                                            <h2><a href="https:settlementhealth.org"></a>Settlement Health & Medical Servicess</h2>
-                                          </header>
-                                          <section>
-                                            <p>
-                                              Led facility modernization and clinic renovation projects, ensuring compliance and enhancing longevity.
-                                            </p>
-                                          </section>
-                                        </a>
-                                        <footer>
-                                          <div className="author">
-                                            <a href="#">Adonis Madera</a>
-                                          </div>
-                                        </footer>
-                                      </div>
-                                       
-                                    </div> 
-                                        {/* Sixth Card  */}
-                                    <div className="card">
-                                      <div className="content">
-                                        <a href="#">
-                                          <header>
-                                            <span>Current Employer</span>
-                                            <h2><a href="https:settlementhealth.org"></a>Settlement Health & Medical Servicess</h2>
-                                          </header>
-                                          <section>
-                                            <p>
-                                              Led facility modernization and clinic renovation projects, ensuring compliance and enhancing longevity.
-                                            </p>
-                                          </section>
-                                        </a>
-                                        <footer>
-                                          <div className="author">
-                                            <a href="#">Adonis Madera</a>
-                                          </div>
-                                        </footer> */
-                                      {/* </div> */}
-                                      </div>
-                                      </div>
-      {/* <p>
-
-I am a certified Project Management Professional (PMP®) and 
-Disciplined Agile Scrum Master (DASM®) with a strong focus on 
-software development and engineering. With over 5 years of 
-project management experience, I excel in seamlessly coordinating 
-cross-functional teams and third-party vendors, ensuring successful 
-project delivery within scope and budget.
-
-<h1>Technical Expertise:</h1>
-
-
-Proficient in project management tools like Jira, Basecamp, and Asana, 
-my technical skills extend to HTML, CSS, JavaScript, and Python. 
-Currently pursuing AWS Cloud Practitioner Certification, 
-I am committed to staying abreast of evolving technologies. 
-My track record includes successfully managing the renovation of a 
-satellite health clinic and orchestrating the grand opening of 
-"The National Geographic Encounter: Ocean Odyssey" in Times Square. 
-I bring a unique blend of project management acumen and technical proficiency 
-to drive excellence in software development and engineering environments.</p> */}
+                                    </div>                    
     </div>
     
   );

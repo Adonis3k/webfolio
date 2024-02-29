@@ -44,7 +44,7 @@ class SocialMedia extends Component {
               </a>
             </li>
             <li>
-            <a href="https://www.instagram.com/adonis_madera" target="_blank" rel="noopener noreferrer">
+            <a href="https://twitter.com/adonis4000" target="_blank" rel="noopener noreferrer">
               <svg options={{ max : 10 }} style={{  width: 33 }} 
                xmlns="http://www.w3.org/2000/svg"
                role="img"
@@ -63,12 +63,13 @@ class SocialMedia extends Component {
         </a>
             </li>
             <li>
+            <a href="https://www.linkedin.com/in/adonis-madera/" target="_blank" rel="noopener noreferrer">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 role="img"
                 viewBox="0 0 24 24"
                 fill="none"
-                stroke="currentColor"
+                stroke="#90f6d7"
                 strokeWidth="2"
                 strokeLinecap="round"
                 strokeLinejoin="round"
@@ -78,25 +79,28 @@ class SocialMedia extends Component {
                 <rect x="2" y="9" width="4" height="12"></rect>
                 <circle cx="4" cy="4" r="2"></circle>
               </svg>
+              </a>
             </li>
             <li>
+            <a href="https://codepen.io/Adonis-Madera" target="_blank" rel="noopener noreferrer">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 role="img"
                 viewBox="0 0 24 24"
                 fill="none"
-                stroke="currentColor"
+                stroke="#90f6d7"
                 strokeWidth="2"
                 strokeLinecap="round"
                 strokeLinejoin="round"
                 className="feather feather-codepen">
-                <title>CodePen</title>
+                <title>CodePen</title> 
                 <polygon points="12 2 22 8.5 22 15.5 12 22 2 15.5 2 8.5 12 2"></polygon>
                 <line x1="12" y1="22" x2="12" y2="15.5"></line>
                 <polyline points="22 8.5 12 15.5 2 8.5"></polyline>
                 <polyline points="2 15.5 12 8.5 22 15.5"></polyline>
                 <line x1="12" y1="2" x2="12" y2="8.5"></line>
               </svg>
+              </a>
             </li>
           </ul>
         </div>
