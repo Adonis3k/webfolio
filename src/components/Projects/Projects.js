@@ -23,10 +23,12 @@ const Projects = () => {
                                             <span>Face Recognition Tool </span>
                                             <h2><a href="https://ai-face-detection-c5c2985fed20.herokuapp.com/"></a>Artificial Intelligence Face Recognition</h2>
                                           </header>
-                                          <section style={{ position: 'relative', overflow: 'hidden', height: 'auto' }}>
+                                          <section style={{ position: 'relative', overflow: 'hidden', height: '12rem' }}>
                                             <img style={{ paddingTop: '1rem', width: '100%', transform: 'translateY(-15%)' }} alt='FaceIdentifier' src={FaceIdentifier}/>
                                           </section>
-                                        <ul></ul>
+
+                                        <div className='projectCard'>
+A React-based app for face detection using Clarifai API, allowing image uploads and user profile management.</div>
                                         </a>
                                         <footer>
                                           <div className="author">
@@ -43,7 +45,7 @@ const Projects = () => {
                                             <span>Searchable Database utilizing API's </span>
                                             <h2><a href="https://ai-face-detection-c5c2985fed20.herokuapp.com/"></a>Projects</h2>
                                           </header>
-                                          <section style={{ position: 'relative', overflow: 'hidden', height: '30rem' }}>
+                                          <section style={{ position: 'relative', overflow: 'hidden', height: '14rem' }}>
                                               <img style={{ paddingTop: '1rem', width: '100%', transform: 'translateY(-15%)' }} alt='RoboFriends' src={RoboFriends}/>
                                         </section>
                                         </a>
