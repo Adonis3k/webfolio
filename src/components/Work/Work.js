@@ -4,8 +4,8 @@ import './Work.css';
 const Work = () => {
   return (
     <div id="work-section">
-      <h1>Work</h1>
-      <div className="container">
+      <div className= "Work-Header">WORK</div>
+      <div className="workContainer">
                                     
         {/* First Card */}
 
@@ -65,6 +65,7 @@ const Work = () => {
               <header>
                 <span>February 2015 to March 2017</span>
                 <h2>SL Green / Emerge212</h2>
+                <h2>Business Center</h2>
               </header>
               <section>
                 
@@ -121,7 +122,7 @@ the business center ran optimally and created a highly hospitable environment fo
               <section>
                 <ul>
                 
-Founder & Sales Manager 
+
 Coached and developed a team of sales associates for consistency in achievement of revenue goals.
 Manage all operational aspects of business across the organization to ensure customer satisfaction.
 Led facility modernization and clinic renovation projects, ensuring compliance and enhancing longevity.
@@ -130,7 +131,7 @@ Led facility modernization and clinic renovation projects, ensuring compliance a
             </a>
             <footer>
               <div className="author">
-                <a href="#">Adonis Madera</a>
+                <a href="#">FOUNDER & OWNER</a>
               </div>
             </footer>
           </div>
@@ -153,7 +154,7 @@ Created, sold, and closed service contracts to achieve bottom-line results on a 
             </a>
             <footer>
               <div className="author">
-                <a href="#">Adonis Madera</a>
+                <a href="#">Managing Partner</a>
               </div>
             </footer>
           </div>

@@ -7,27 +7,27 @@ const ContactForm = () => {
     
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
-  const [contactNo, setContactNo] = useState("");
+  // const [contactNo, setContactNo] = useState("");
   const [message, setMessage] = useState("");
 
   const handleCancel = () => {
     // Logic for Cancel button (e.g., clear form)
     setName('');
     setEmail('');
-    setContactNo('');
+    // setContactNo('');
     setMessage('');
   };
 
   const handleSend = (event) => {
     event.preventDefault();
     // Logic for Send button (e.g., form submission)
-    console.log({ name, email, contactNo, message });
+    console.log({ name, email, message });
   };
 
   return (
     <div id= "Contact">
     <div className="background">
-      <div className="container">
+      <div className="contactContainer">
         <div className="screen">
           <div className="screen-header">
             <div className="screen-header-left">
@@ -57,9 +57,9 @@ const ContactForm = () => {
                 <div className="app-form-group">
                   <input className="app-form-control" placeholder="EMAIL" value={email} onChange={(e) => setEmail(e.target.value)} />
                 </div>
-                <div className="app-form-group">
+                {/* <div className="app-form-group">
                   <input className="app-form-control" placeholder="CONTACT NO" value={contactNo} onChange={(e) => setContactNo(e.target.value)} />
-                </div>
+                </div> */}
                 <div className="app-form-group message">
                   <input className="app-form-control" placeholder="MESSAGE" value={message} onChange={(e) => setMessage(e.target.value)} />
                 </div>
