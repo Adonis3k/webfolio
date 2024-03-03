@@ -15,22 +15,19 @@ body {
     width: 100%; /* Set width to 100% */
 }
 
-
-/* .Header {
-    display: flex;
-    justify-content: space-between; 
-    flex-direction: row-reverse;
-    padding: 1rem;
-    cursor: pointer;
-    font-family: 'Roboto Mono';
-    background: #263849;
-
+/* .Banner{
+    background-color: #263849;
+    position: fixed;
+   width: max-content;
+   size: 100;
+    z-index: 0;
 } */
+
 
 .navitems {
     background: #263849;
    
-    background-size: cover;
+    background-size: 100%;
     position: fixed; 
     z-index: 999;
     list-style: none;

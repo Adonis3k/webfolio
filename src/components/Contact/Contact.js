@@ -7,22 +7,38 @@ const ContactForm = () => {
     
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
-  // const [contactNo, setContactNo] = useState("");
   const [message, setMessage] = useState("");
 
   const handleCancel = () => {
-    // Logic for Cancel button (e.g., clear form)
     setName('');
     setEmail('');
-    // setContactNo('');
     setMessage('');
   };
 
-  const handleSend = (event) => {
+
+  const handleSend = async (event) => {
     event.preventDefault();
-    // Logic for Send button (e.g., form submission)
-    console.log({ name, email, message });
+    try {
+      const response = await fetch('http://localhost:3001/submit-form', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({ name, email, message }),
+      });
+  
+      if (response.ok) {
+        console.log('Form submitted successfully');
+        // Clear form fields or show success message
+      } else {
+        console.error('Form submission failed');
+        // Handle errors or show error message
+      }
+    } catch (error) {
+      console.error('There was an error submitting the form', error);
+    }
   };
+  
 
   return (
     <div id= "Contact">
@@ -44,8 +60,8 @@ const ContactForm = () => {
           <div className="screen-body">
             <div className="screen-body-item left">
               <div className="app-title">
-                <span>CONTACT</span>
-                <span>ADONIS</span>
+                <span>Let's talk </span>
+                <span>about your project.</span>
               </div>
               <div className="app-contact">CALL:917-860-5570 </div>
             </div>
@@ -57,9 +73,6 @@ const ContactForm = () => {
                 <div className="app-form-group">
                   <input className="app-form-control" placeholder="EMAIL" value={email} onChange={(e) => setEmail(e.target.value)} />
                 </div>
-                {/* <div className="app-form-group">
-                  <input className="app-form-control" placeholder="CONTACT NO" value={contactNo} onChange={(e) => setContactNo(e.target.value)} />
-                </div> */}
                 <div className="app-form-group message">
                   <input className="app-form-control" placeholder="MESSAGE" value={message} onChange={(e) => setMessage(e.target.value)} />
                 </div>
@@ -74,7 +87,8 @@ const ContactForm = () => {
       </div>
     </div>
     </div>
-  );
+  )
+  ;
 };
 
 export default ContactForm;

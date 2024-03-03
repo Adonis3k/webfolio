@@ -14,7 +14,7 @@ const Work = () => {
           <a href="https:settlementhealth.org">            
           <header>
                 <span>Current Employer</span>
-                <h2>Settlement Health & Medical Servicess</h2>
+                <h2>Settlement Health & Medical </h2>
               </header>
               <section>
                 
