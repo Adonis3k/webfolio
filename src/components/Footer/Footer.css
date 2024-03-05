@@ -1,11 +1,11 @@
 .Footer-container {
-    text-align: center;
-    color: aqua;
-   /* padding: 2rem; */
-   text-decoration: none;
-margin-top: -5rem;
-
-    
+  
+   /* */
+    margin-top: -5rem;
+  display: grid;
+  place-items: center;
+  color: aqua;
+  text-decoration: none; 
 
 }
 
