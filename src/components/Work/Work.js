@@ -97,11 +97,12 @@ the business center ran optimally and created a highly hospitable environment fo
               </header>
               <section>
               <ul>
-                Provided superior guest and concierge services to ensure happy and delighted customers.
-                Created solutions for guests while practicing actively listening to their needs thus creating repeat business.
-                Surveyed the property on a nightly basis to examine property for damage.
+                Provided superior guest and concierge services to ensure happy and delighted customers.</ul>
+                <ul>Created solutions for guests while practicing actively listening to their needs thus creating repeat business.</ul>
+                <ul>
+Routinely executed comprehensive nocturnal surveys of the premises, meticulously scrutinizing the property to detect and catalog any indications of damage or deterioration.</ul>
 
-                </ul>
+               
               </section>
             </a>
             <footer>
@@ -123,10 +124,10 @@ the business center ran optimally and created a highly hospitable environment fo
                 <ul>
                 
 
-Coached and developed a team of sales associates for consistency in achievement of revenue goals.
-Manage all operational aspects of business across the organization to ensure customer satisfaction.
-Led facility modernization and clinic renovation projects, ensuring compliance and enhancing longevity.
-                </ul>
+Coached and developed a team of sales associates for consistency in achievement of revenue goals. </ul>
+<ul>Manage all operational aspects of business across the organization to ensure customer satisfaction. </ul>
+<ul>Led facility modernization and clinic renovation projects, ensuring compliance and enhancing longevity. </ul>
+              
               </section>
             </a>
             <footer>
@@ -147,9 +148,9 @@ Led facility modernization and clinic renovation projects, ensuring compliance a
               </header>
               <section>
                 <ul>
-                Store Owner & Operations Manager New York, NY – 
-Created, sold, and closed service contracts to achieve bottom-line results on a consistent basis.
-                </ul>
+                As the Store Owner & Operations Manager in New York, NY for T-Mobile Authorized Dealer from January 2007 to June 2012</ul> 
+               <ul> I pioneered the establishment of a thriving telecommunications outlet. My role encompassed the orchestration of sales strategies, leading to the successful creation, negotiation, and conclusion of service contracts.</ul> 
+               <ul>This consistently drove robust bottom-line results. </ul>
               </section>
             </a>
             <footer>

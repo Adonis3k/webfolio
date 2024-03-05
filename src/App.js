@@ -8,7 +8,7 @@ import Projects from './components/Projects/Projects';
 import Contact from './components/Contact/Contact';
 import SocialMedia from './components/SocialMedia/SocialMedia';
 import Logo from './components/Logo/Logo';
-
+import Footer from './components/Footer/Footer.js';
 
 const App = () => {
   const navItems = [
@@ -29,6 +29,7 @@ return (
     <Projects />
     <Contact />
    <SocialMedia />
+   <Footer />
   </div> 
 );}
 export default App;
