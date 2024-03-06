@@ -34,7 +34,7 @@ const Projects = () => {
                                         </a>
                                         <footer>
                                           <div className="author">
-                                            <a href="#">#Ai #nodejs #knex #Posgres #SQL </a>
+                                            <a href="javascript:void(0);">#Ai #nodejs #knex #Posgres #SQL </a>
                                           </div>
                                         </footer>
                                       </div>
@@ -47,6 +47,7 @@ const Projects = () => {
                                             <span>AWS</span>
                                             <h2>Dependency Monitoring Lab</h2>
                                           </header>
+                                          </a>
                                           <section>
                                                 <section style={{ position: 'relative', overflow: 'hidden', height: '12rem' }}>
                                                 <img style={{ paddingTop: '1rem', width: '100%', transform: 'translateY(-15%)' }} alt='AWSLab' src={AWSLab}/>
@@ -63,10 +64,10 @@ const Projects = () => {
   Focused on enhancing system reliability and uptime by closely monitoring interdependencies within the AWS ecosystem.
 </ul> </div>
                                           </section>
-                                        </a>
+                                      :
                                         <footer>
                                           <div className="author">
-                                            <a href="#">#AWS #cloudinfrastructure  </a>
+                                            <a href="javascript:void(0);">#AWS #Cloud Infrastructure  </a>
                                           </div>
                                         </footer>
                                       </div>
@@ -96,7 +97,7 @@ const Projects = () => {
                                         </a>
                                         <footer>
                                           <div className="author">
-                                            <a href="#">#Ai #nodejs #knex #Posgres #SQL </a>
+                                            <a href="javascript:void(0);">#Ai #nodejs #knex #Posgres #SQL </a>
                                           </div>
                                         </footer>
                                         
