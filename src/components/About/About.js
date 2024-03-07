@@ -1,10 +1,17 @@
 // About.js
-import React from 'react';
+import React, {Component } from 'react';
 import './About.css';
+import ParticlesBg from 'particles-bg';
+
+
+
+
 
 const About = () => {
   return (
-    <div id="about-section">
+    
+    <div className="about-container">
+      <ParticlesBg type="cobweb" bg={true} className="particles" />
       <h1>About Me</h1>
       <p>
 
@@ -27,7 +34,10 @@ satellite health clinic and orchestrating the grand opening of
 "The National Geographic Encounter: Ocean Odyssey" in Times Square. 
 I bring a unique blend of project management acumen and technical proficiency 
 to drive excellence in software development and engineering environments.</p>
-    </div>
+    </div> 
+   
+   
+    
   );
 };
 
