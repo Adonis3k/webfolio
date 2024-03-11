@@ -10,9 +10,10 @@ import SocialMedia from './components/SocialMedia/SocialMedia';
 import Logo from './components/Logo/Logo';
 import Footer from './components/Footer/Footer.js';
 
+
 const App = () => {
   const navItems = [
-    { id: 'About', label: 'About' },
+    { id: 'About', label: 'about-container' },
     { id: 'Work', label: 'Work-Section' },
     { id: 'Experience', label: 'Experience' },
     { id: 'Projects', label: 'Projects' },

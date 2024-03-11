@@ -1,10 +1,12 @@
 import React, { useState } from "react";
+import { useForm } from '@formspree/react';
 import "./Contact.css";
 
 
 
 const ContactForm = () => {
-    
+  // Initialize useForm
+  const [state, handleSubmit] = useForm("https://formspree.io/f/mwkgqoyp"); 
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
@@ -15,29 +17,12 @@ const ContactForm = () => {
     setMessage('');
   };
 
-
-  const handleSend = async (event) => {
-    event.preventDefault();
-    try {
-      const response = await fetch('http://localhost:3001/submit-form', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify({ name, email, message }),
-      });
+  if (state.succeeded) {
   
-      if (response.ok) {
-        console.log('Form submitted successfully');
-        // Clear form fields or show success message
-      } else {
-        console.error('Form submission failed');
-        // Handle errors or show error message
-      }
-    } catch (error) {
-      console.error('There was an error submitting the form', error);
-    }
+return <div>Thank you for signing up!</div>;
   };
+
+
   
 
   return (
@@ -66,7 +51,9 @@ const ContactForm = () => {
               <div className="app-contact">CALL:917-860-5570 </div>
             </div>
             <div className="screen-body-item">
+            <form onSubmit={handleSubmit}>
               <div className="app-form">
+               
                 <div className="app-form-group">
                   <input className="app-form-control" placeholder="NAME" value={name} onChange={(e) => setName(e.target.value)} />
                 </div>
@@ -77,18 +64,19 @@ const ContactForm = () => {
                   <input className="app-form-control" placeholder="MESSAGE" value={message} onChange={(e) => setMessage(e.target.value)} />
                 </div>
                 <div className="app-form-group buttons">
-                  <button className="app-form-button" onClick={handleCancel}>CANCEL</button>
-                  <button className="app-form-button" onClick={handleSend}>SEND</button>
-                </div>
+                <button type="button" className="app-form-button" onClick={handleCancel}>CANCEL</button>
+                      <button type="submit" className="app-form-button">SEND</button> </div>
+                      </div>
+                </form>
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-    </div>
-  )
-  ;
+    
+    
+  );
 };
 
 export default ContactForm;

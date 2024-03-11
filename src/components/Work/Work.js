@@ -17,7 +17,7 @@ const Work = () => {
                 <h2>Settlement Health & Medical </h2>
               </header>
               </a>
-              <section>
+              <div className='points'>
                 
                 <ul>
                   Led facility modernization and clinic renovation projects, ensuring compliance and enhancing longevity. 
@@ -26,7 +26,7 @@ const Work = () => {
                 </ul>
                 <ul>Project Managed the full renovation of satellite health clinic.</ul>
                 
-              </section>
+              </div>
             
             <footer>
               <div className="author">

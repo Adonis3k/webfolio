@@ -5,6 +5,7 @@ import { Link } from 'react-scroll';
 class Header extends Component {
     render() {
       return (
+        <div className="Banner">
         <div classname="Logo">
         <div className="Header"> 
           <ul className="navitems"> 
@@ -22,6 +23,7 @@ class Header extends Component {
                 className="resume-button">Resume</a>
                     </li>
           </ul>
+        </div>
         </div>
         </div>
       );

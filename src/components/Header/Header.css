@@ -11,7 +11,8 @@ body {
     padding: 1rem;
     cursor: pointer;
     font-family: 'Roboto Mono';
-    background: #263849;
+   
+    background-color:  #263849;
     width: 100%; /* Set width to 100% */
 }
 
@@ -32,7 +33,7 @@ body {
     z-index: 999;
     list-style: none;
     display: flex;
-    color: #35bcbf;
+    color: #ffffff;
     text-decoration: none;
     padding: 0.625rem 0.9375rem;
     left: 100; /* Align to the left */
@@ -63,7 +64,7 @@ body {
     text-decoration: underline;
 }
 .resume-button {
-    background-color: #ffffff;
+    background-color: #41506b;
     color: 41506b;
     padding: 10px 15px;
     text-decoration: none;
@@ -74,5 +75,5 @@ body {
 }
 
 .resume-button:hover {
-    background-color: #ffffff;
+    background-color: #c8e29d;
 }

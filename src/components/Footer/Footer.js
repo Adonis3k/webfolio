@@ -5,10 +5,10 @@ const Footer = () => {
   return (
     <div className='Footer-container'>
         <a href="https://www.linkedin.com/in/adonis-madera/" target="_blank" rel="noreferrer">
-       DESIGNED AND BUILT BY:ADONIS MADERA
+       Designed and built by: Adonis Madera
         
        </a>
-       ALL RIGHTS RESERVED © 2024 
+     
       </div>
     
   );

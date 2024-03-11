@@ -12,9 +12,9 @@ class SocialMedia extends Component {
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 role="img"
-                viewBox="0 0 24 24"
+                viewBox="0 0 32 32"
                 fill="none"
-                stroke="#90f6d7"
+                stroke="#ffffff"
                 strokeWidth="2"
                 strokeLinecap="round"
                 strokeLinejoin="round"
@@ -29,9 +29,9 @@ class SocialMedia extends Component {
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 role="img"
-                viewBox="0 0 24 24"
+                viewBox="0 0 32 32"
                 fill="none"
-                stroke="#90f6d7"
+                stroke="#ffffff"
                 strokeWidth="2"
                 strokeLinecap="round"
                 strokeLinejoin="round"
@@ -48,16 +48,14 @@ class SocialMedia extends Component {
               <svg options={{ max : 10 }} style={{  width: 33 }} 
                xmlns="http://www.w3.org/2000/svg"
                role="img"
-               viewBox="0 0 24 24"
-               fill="none"
-               stroke="#90f6d7"
+               viewBox="0 0 32 32"
                strokeWidth="2"
                strokeLinecap="round"
                strokeLinejoin="round"
                className="feather feather-twitter">
                 <title>Twitter</title>
                 <path d="M714.163 519.284L1160.89 0H1055.03L667.137 450.887L357.328 0H0L468.492 681.821L0 1226.37H105.866L515.491 750.218L842.672 1226.37H1200L714.137 519.284H714.163ZM569.165 687.828L521.697 619.934L144.011 79.6944H306.615L611.412 515.685L658.88 583.579L1055.08 1150.3H892.476L569.165 687.854V687.828Z"
-              fill="#90f6d7"
+              fill="#ffffff"
               transform="scale(.0185)" />
               </svg>
         </a>
@@ -67,9 +65,9 @@ class SocialMedia extends Component {
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 role="img"
-                viewBox="0 0 24 24"
+                viewBox="0 0 32 32"
                 fill="none"
-                stroke="#90f6d7"
+                stroke="#ffffff"
                 strokeWidth="2"
                 strokeLinecap="round"
                 strokeLinejoin="round"
@@ -86,9 +84,9 @@ class SocialMedia extends Component {
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 role="img"
-                viewBox="0 0 24 24"
+                viewBox="0 0 32 32"
                 fill="none"
-                stroke="#90f6d7"
+                stroke="#ffffff"
                 strokeWidth="2"
                 strokeLinecap="round"
                 strokeLinejoin="round"

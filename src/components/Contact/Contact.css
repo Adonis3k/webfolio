@@ -1,5 +1,6 @@
 .app-title span {
   font-size: 2rem; /* Default font size */
+  color: #ffff;
 }
 
 /* Responsive adjustments */
@@ -123,7 +124,7 @@
     
     margin-top: auto;
     font-size: rem;
-    color: #35bcbf;
+    color: #ffff;
   }
   
   .app-form-group {
