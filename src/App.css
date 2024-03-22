@@ -38,3 +38,36 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(
 @media (min-width: 768px) {
   /* Styles for viewport width >= 768px */
 }
+/* primary Colors */
+.first-color { 
+	background: #90f6d7; 
+}
+	
+.second-color { 
+	background: #35bcbf; 
+}
+
+.third-color { 
+	background: #41506b; 
+}
+
+.fourth-color { 
+	background: #263849; 
+}
+/* Secondary Colors */
+.first-color { 
+	background: #58828b; 
+}
+	
+.second-color { 
+	background: #5e9387; 
+}
+
+.third-color { 
+	background: #c8e29d; 
+}
+
+.fourth-color { 
+	background: #f2f299; 
+}
+/* https://palettes.shecodes.io/palettes/1281 */

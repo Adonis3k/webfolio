@@ -1,17 +1,12 @@
-// About.js
 import React, {Component } from 'react';
 import './About.css';
 import ParticlesBg from 'particles-bg';
 
-
-
-
-
 const About = () => {
   return (
     
-    <div className="about-container">
-      <ParticlesBg type="cobweb" bg={true} className="particles" />
+    <div className="about-section">
+      {/* <ParticlesBg type="random" bg={true} className="particles" /> */}
       <h1>About Me</h1>
       <p>
 

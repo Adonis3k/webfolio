@@ -12,7 +12,7 @@ const Hero = () => {
         digital experiences. Currently, I’m focused on building accessible, patient health care-centered projects
         at{' '}
         <a href="https://settlementhealth.org/" target="_blank" rel="noreferrer">
-          SettlementHealth.
+          Settlement Health.
         </a>
       </div>
     </div>

@@ -17,96 +17,89 @@ const Projects = () => {
                                     {/* First Card */}
                                     <div className="card"> 
                                       <div className="content">
-                                      <a href="https://ai-face-detection-c5c2985fed20.herokuapp.com/">
-                                          <header>
-                                            <span>Face Recognition Tool </span>
-                                            <h2>ai - Face Recognition</h2>
-                                          </header>
-                                          <section style={{ position: 'relative', overflow: 'hidden', height: '12rem' }}>
+                                      <section style={{ position: 'relative', overflow: 'hidden', height: '12rem' }}>
                                             <img style={{ paddingTop: '1rem', width: '100%', transform: 'translateY(-15%)' }} alt='FaceIdentifier' src={FaceIdentifier}/>
                                           </section>
-                                         
+                                      <a href="https://ai-face-detection-c5c2985fed20.herokuapp.com/">
+                                          <header>
+                                            <h2>Ai - Face Recognition</h2>
+                                            <span>Face Recognition Tool </span>
+                                          </header> 
+                                          </a>
                                         <div className='projectCard1'>
-<ul>Integrated Clarifai's API for accurate face detection and implemented logic to display bounding boxes around detected faces.</ul>
-<ul>Implemented state management to track user sessions, manage user profiles, and update entry counts upon successful image submissions.</ul>
-<ul>Employed project management methodologies to organize the development process, meet milestones, and ensure application functionality.</ul>
+<h4>Integrated Clarifai's API for accurate face detection and implemented logic to display bounding boxes around detected faces.</h4>
+<h4>Implemented state management to track user sessions, manage user profiles, and update entry counts upon successful image submissions.</h4>
+<h4>Employed project management methodologies to organize the development process, meet milestones, and ensure application functionality.</h4>
+                                      </div>                                                                                                                     <div className="author">
+                                     <div className="author"> <p>#Ai #nodejs #knex #Posgres #SQL </p>
+                                     </div>
+                                    </div>
+                                        
                                       </div>
-                                        </a>
-                                        <footer>
-                                          <div className="author">
-                                            <a href="javascript:void(0);">#Ai #nodejs #knex #Posgres #SQL </a>
-                                          </div>
-                                        </footer>
-                                      </div>
-                                       {/* Second Card */}
                                     </div> 
+                                     {/* Second Card */}
                                     <div className="card">
                                       <div className="content">
+                                      <section style={{ position: 'relative', overflow: 'hidden', height: '12rem' }}>
+                                                <img style={{ paddingTop: '1rem', width: '100%', transform: 'translateY(-15%)' }} alt='AWSLab' src={AWSLab}/>
+                                          </section>
                                         <a href="https://www.linkedin.com/posts/adonis-madera_aws-wellarchitected-cloudmigration-activity-7040501656362344448-NvG6?utm_source=share&utm_medium=member_desktop">
                                           <header>
-                                            <span>AWS</span>
                                             <h2>Dependency Monitoring Lab</h2>
-                                          </header>
-                                          </a>
-                                          <section>
-                                                <section style={{ position: 'relative', overflow: 'hidden', height: '12rem' }}>
-                                                <img style={{ paddingTop: '1rem', width: '100%', transform: 'translateY(-15%)' }} alt='AWSLab' src={AWSLab}/>
-                                          </section>    
-                                                                     
+                                            <span>AWS</span>
+                                          </header>   
+                                          </a>     
                                           <div className='projectCard1'>
-                                          <ul>
+                                          <h4>
   Engineered a solution for monitoring dependencies in AWS, ensuring robust tracking of cloud-based resources.
-</ul>
-<ul>
+</h4>
+<h4>
   Implemented automated alerts and diagnostics using AWS tools to proactively manage system dependencies.
-</ul>
-<ul>
+</h4>
+<h4>
   Focused on enhancing system reliability and uptime by closely monitoring interdependencies within the AWS ecosystem.
-</ul> </div>
-                                          </section>
-                                      :
-                                        <footer>
-                                          <div className="author">
-                                            <a href="javascript:void(0);">#AWS #Cloud Infrastructure  </a>
+</h4> 
+</div>                                      
+                              
+                                          <div className="author2">
+                                            <p>#AWS #Cloud Infrastructure  </p>
                                           </div>
-                                        </footer>
+                                       
                                       </div>
                                        
                                     </div> 
+                                    {/* 3rd Card */}
                                     <div className="card"> 
                                       <div className="content">
                                       <a href="https://adonis3k.github.io/robofriends/">
-                                          <header>
-                                            <span>Searchable Database utilizing API's </span>
-                                            <h2>Lightning Fast Responsive Search</h2>
-                                          </header>
-                                          <section style={{ position: 'relative', overflow: 'hidden', height: '12rem' }}>
+                                      <section style={{ position: 'relative', overflow: 'hidden', height: '12rem' }}>
                                               <img style={{ paddingTop: '1rem', width: '100%', transform: 'translateY(-15%)' }} alt='RoboFriends' src={RoboFriends}/>
-                                        </section><div className='projectCard1'>
-                                        <ul>
+                                        </section>
+                                          <header>
+                                          <h2>Lightning Fast Responsive Search</h2>
+                                          <span>Searchable Database utilizing API's </span>
+                                          </header>
+                                 
+                                        </a>
+                                        <div className='projectCard1'>
+                                        <h4>
   Integrated a searchable user interface that dynamically filters robot profiles based on user input.
-</ul>
-<ul>
+</h4>
+<h4>
   Implemented state management to handle user interactions and control the display of robot profiles.
-</ul>
-<ul>
+</h4>
+<h4>
   Utilized React.js for efficient UI rendering and leveraged API calls to fetch robot data.
-</ul>
+</h4>
 
 </div>
-                                        </a>
-                                        <footer>
-                                          <div className="author">
-                                            <a href="javascript:void(0);">#Ai #nodejs #knex #Posgres #SQL </a>
-                                          </div>
-                                        </footer>
-                                        
+<div className="author3">
+<p>#Ai #nodejs #knex #Posgres #SQL </p>
+</div>
                                       </div>
-                                       {/* Second Card */}
                                     </div>       
                                     </div>                    
     </div>
-    
   );
 };
 

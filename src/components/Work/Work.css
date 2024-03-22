@@ -1,14 +1,15 @@
-
+/* 
 .points {
   justify-content: top;
-  margin-top: 1rem;
+  margin-top: -.5rem;
 
-}
+} */
 .Work-Header{
   font-size: 4rem;
   padding-left: 4rem;
   color: #35bcbf;
-  
+  position: relative;
+  z-index: 1000;  
   
 }
 
@@ -22,16 +23,16 @@
   padding-top: 1rem;
    
   }
-  body {
+  /* body {
     background: #f4f8fb;
     font-family: system-ui;
     box-sizing: border-box;
     
-  }
+  } */
 
   .workContainer {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
     grid-gap: 2em;
     padding: 50px;
     
@@ -54,10 +55,11 @@
       .content {
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
+        justify-content: auto;
         height: 100%;
-        min-height: 300px;
-        padding: 20px;
+        min-height: auto;
+        padding: 1.25rem;
+        
         a {
           display: block;
           color: #263849;

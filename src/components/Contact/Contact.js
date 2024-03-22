@@ -3,6 +3,8 @@ import { useForm } from '@formspree/react';
 import "./Contact.css";
 
 
+// const [state, handleSubmit] = useForm("mwkgqoyp"); // Use just the form ID here, not the full URL
+
 
 const ContactForm = () => {
   // Initialize useForm
@@ -45,8 +47,8 @@ return <div>Thank you for signing up!</div>;
           <div className="screen-body">
             <div className="screen-body-item left">
               <div className="app-title">
-                <span>Let's talk </span>
-                <span>about your project.</span>
+                <span> Contact me. </span>
+                
               </div>
               <div className="app-contact">CALL:917-860-5570 </div>
             </div>

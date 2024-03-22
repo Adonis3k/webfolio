@@ -34,7 +34,7 @@ const Work = () => {
           <div className="content">
             <a href="https://www.youtube.com/channel/UCZBxeaYxXzCBOd4MsztPMGQ">
               <header>
-                <span>April 2017 – September 2020</span>
+                <span>April 2017 to September 2020</span>
                 <span>Director of Operations</span>
                 <h2>National Geographic Encounter</h2>
                 </header>
