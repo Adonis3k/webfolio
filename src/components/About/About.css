@@ -8,19 +8,19 @@
     padding: 7rem;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  
     background: #263849;
     position: relative;
-    z-index: 0; 
+    z-index: 1;
+  
   }
-  .particles {
-    position: fixed;
-    top: 0;
-    right: 0;
-    left:0;
-    bottom: 0;
-    content:25%;
-    z-index: -1;
-    
-  }
+ .aboutme{
+  position: relative;
+  z-index: 1000;  
+  color:rgb(47, 255, 0);
+  font-size:2.5rem;
+  padding:1rem;
+  margin-left: -1rem;
+  
 
+ }
  
   
 

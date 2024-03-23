@@ -1,13 +1,13 @@
-import React, {Component } from 'react';
+import React from 'react';
 import './About.css';
-import ParticlesBg from 'particles-bg';
+// import ParticlesBg from 'particles-bg';
 
 const About = () => {
   return (
     
     <div className="about-section">
       {/* <ParticlesBg type="random" bg={true} className="particles" /> */}
-      <h1>About Me</h1>
+      <div className='aboutme'>About me:</div> 
       <p>
 
 I am a certified Project Management Professional (PMP®) and 
@@ -17,8 +17,7 @@ project management experience, I excel in seamlessly coordinating
 cross-functional teams and third-party vendors, ensuring successful 
 project delivery within scope and budget.
 
-<h1>Technical Expertise:</h1>
-
+<div className='aboutme'>Technical Expertise:</div>
 
 Proficient in project management tools like Jira, Basecamp, and Asana, 
 my technical skills extend to HTML, CSS, JavaScript, and Python. 

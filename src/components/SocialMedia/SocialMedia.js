@@ -24,7 +24,7 @@ class SocialMedia extends Component {
               </svg>
               </a>
             </li>
-            <li>
+            {/* <li>
             <a href="https://www.instagram.com/adonis_madera" target="_blank" rel="noopener noreferrer">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -59,7 +59,7 @@ class SocialMedia extends Component {
               transform="scale(.0185)" />
               </svg>
         </a>
-            </li>
+            </li> */}
             <li>
             <a href="https://www.linkedin.com/in/adonis-madera/" target="_blank" rel="noopener noreferrer">
               <svg

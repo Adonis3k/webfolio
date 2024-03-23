@@ -22,3 +22,11 @@
   color: #ffff;
   
 }
+.big-heading {
+  font-size: 2rem;
+  line-height: normal;
+  color:rgb(47, 255, 0)
+}
+.p {
+  padding-top: 2rem;
+}

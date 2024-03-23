@@ -1,3 +1,4 @@
+
 .app-title span {
   font-size: 2rem; /* Default font size */
   color: #ffff;
@@ -17,13 +18,14 @@
 }
 
 
-.background {
+.background { /* Main body settings */
   display: flex;
   justify-content: center;
   align-items: center;
   min-height: 100vh;
   padding: 9rem;
   padding-bottom: 1rem;
+  padding-top: 0rem;
 }
 
   
@@ -117,14 +119,14 @@
     display: flex;
     flex-direction: column;
     position: auto;
-    color: #90f6d7;
-    font-size: 5rem;
+    color:rgb(47, 255, 0);
+    font-size:2.5rem;
   }
   
   .app-contact {
     
     margin-top: auto;
-    font-size: rem;
+    font-size: 2rem;
     color: #ffff;
   }
   
@@ -187,6 +189,7 @@
   
     .app-title {
       flex-direction: row;
+      color: #74c54f;
     }
   
     .app-title span {
@@ -207,4 +210,11 @@
       padding: 0;
     }
   }
-  
+  .thanks{
+    padding-bottom: 6rem;
+    color:rgb(47, 255, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* other styles */
+  }

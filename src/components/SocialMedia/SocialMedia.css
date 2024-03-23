@@ -2,8 +2,8 @@
     position: fixed; 
     z-index: 1000;
     max-width: 4rem;
-    padding-top: 4rem;
-        bottom: 5rem;   
+    padding-top: 8rem;
+        bottom: -1rem;   
         margin-left: 1.0rem;   
 }
 ul {

@@ -4,6 +4,7 @@
     padding-left: 4rem;
     position: relative;
     z-index: 1000;  
+    color:rgb(47, 255, 0);
   }
 
 #Projects-section {
@@ -83,7 +84,8 @@
 .author
 {
   color: #081a64;
-margin-bottom: -1rem;
+margin-top: 2rem;
+margin-bottom: 0rem;
 }
 
 .author2{

@@ -1,14 +1,9 @@
-import React, { useState } from "react";
-import { useForm } from '@formspree/react';
+import React, { useState } from 'react';
+import { useForm, ValidationError } from '@formspree/react';
 import "./Contact.css";
 
-
-// const [state, handleSubmit] = useForm("mwkgqoyp"); // Use just the form ID here, not the full URL
-
-
-const ContactForm = () => {
-  // Initialize useForm
-  const [state, handleSubmit] = useForm("https://formspree.io/f/mwkgqoyp"); 
+function ContactForm() {
+  const [state, handleSubmit] = useForm("mwkgqoyp");
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
@@ -20,12 +15,8 @@ const ContactForm = () => {
   };
 
   if (state.succeeded) {
-  
-return <div>Thank you for signing up!</div>;
-  };
-
-
-  
+    return <div className='thanks'><h1>Thanks for the note!</h1></div>;
+  }
 
   return (
     <div id= "Contact">
@@ -47,28 +38,30 @@ return <div>Thank you for signing up!</div>;
           <div className="screen-body">
             <div className="screen-body-item left">
               <div className="app-title">
-                <span> Contact me. </span>
-                
+                CONTACT ME
               </div>
               <div className="app-contact">CALL:917-860-5570 </div>
             </div>
             <div className="screen-body-item">
+          
             <form onSubmit={handleSubmit}>
               <div className="app-form">
-               
                 <div className="app-form-group">
                   <input className="app-form-control" placeholder="NAME" value={name} onChange={(e) => setName(e.target.value)} />
                 </div>
                 <div className="app-form-group">
-                  <input className="app-form-control" placeholder="EMAIL" value={email} onChange={(e) => setEmail(e.target.value)} />
+                  <input id="email" type="email" name="email" className="app-form-control" placeholder="EMAIL" value={email} onChange={(e) => setEmail(e.target.value)} />
+                  <ValidationError prefix="Email" field="email" errors={state.errors} />
                 </div>
-                <div className="app-form-group message">
-                  <input className="app-form-control" placeholder="MESSAGE" value={message} onChange={(e) => setMessage(e.target.value)} />
+                <div className="app-form-group">
+                  <textarea id="message" name="message" className="app-form-control" placeholder="MESSAGE" value={message} onChange={(e) => setMessage(e.target.value)} />
+                  <ValidationError prefix="Message" field="message" errors={state.errors} />
                 </div>
                 <div className="app-form-group buttons">
                 <button type="button" className="app-form-button" onClick={handleCancel}>CANCEL</button>
                       <button type="submit" className="app-form-button">SEND</button> </div>
                       </div>
+                    
                 </form>
               </div>
             </div>
@@ -80,5 +73,4 @@ return <div>Thank you for signing up!</div>;
     
   );
 };
-
 export default ContactForm;

@@ -3,7 +3,6 @@ import React from 'react';
 import FaceIdentifier from './FaceIdentifier.png';
 import RoboFriends from './RoboFriends.png';
 import AWSLab from './AWSLab.png';
-import AWS2 from './AWS2.png';
 import './Projects.css';
 
 
@@ -22,7 +21,7 @@ const Projects = () => {
                                           </section>
                                       <a href="https://ai-face-detection-c5c2985fed20.herokuapp.com/">
                                           <header>
-                                            <h2>Ai - Face Recognition</h2>
+                                            <h2>AI - Face Recognition</h2>
                                             <span>Face Recognition Tool </span>
                                           </header> 
                                           </a>
@@ -31,7 +30,7 @@ const Projects = () => {
 <h4>Implemented state management to track user sessions, manage user profiles, and update entry counts upon successful image submissions.</h4>
 <h4>Employed project management methodologies to organize the development process, meet milestones, and ensure application functionality.</h4>
                                       </div>                                                                                                                     <div className="author">
-                                     <div className="author"> <p>#Ai #nodejs #knex #Posgres #SQL </p>
+                                     <div className="author"> <p>#AI #nodejs #knex #Posgres #SQL </p>
                                      </div>
                                     </div>
                                         
