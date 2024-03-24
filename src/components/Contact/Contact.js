@@ -47,7 +47,7 @@ function ContactForm() {
             <form onSubmit={handleSubmit}>
               <div className="app-form">
                 <div className="app-form-group">
-                  <input className="app-form-control" placeholder="NAME" value={name} onChange={(e) => setName(e.target.value)} />
+                  <input id="name" type="name" name="name" className="app-form-control" placeholder="NAME" value={name} onChange={(e) => setName(e.target.value)} />
                 </div>
                 <div className="app-form-group">
                   <input id="email" type="email" name="email" className="app-form-control" placeholder="EMAIL" value={email} onChange={(e) => setEmail(e.target.value)} />
