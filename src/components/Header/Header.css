@@ -1,14 +1,17 @@
 
 
 .navitems ul{
-    z-index: 99; 
+    position: fixed;  
+    width: 100%;
+    top: 0;
+    z-index: 1000; 
     height: 4.5rem;
     display: flex;
     list-style-type: none;
     justify-content: flex-end;
-    width: 100%;
+    
     background: #263849;
-    position: fixed;   
+    
     color: #ffffff;
     text-decoration: none;
     margin: 0;

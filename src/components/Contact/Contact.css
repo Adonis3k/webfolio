@@ -1,4 +1,7 @@
-
+.Contact {
+  position: relative;
+  z-index: 1;
+}
 .app-title span {
   font-size: 2rem; /* Default font size */
   color: #ffff;

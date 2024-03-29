@@ -1,11 +1,15 @@
 .Logo{
         content: auto; 
         position: fixed; 
-        z-index: 1000;  
+        z-index: 1001;  
         margin: .25rem;
         margin-left: .5rem; 
         padding: .5rem;
         ;
+        
+   
+    top: 0;
+     
       
 }
 
