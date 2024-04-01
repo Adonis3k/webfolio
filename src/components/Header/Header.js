@@ -1,17 +1,24 @@
 import React, { Component } from 'react';
-import './Header.css';
 import { Link } from 'react-scroll';
+import './Header.css';
 
 class Header extends Component {
-  handleNavLinkClick = () => {
-    // Force a re-render of the component
-    this.forceUpdate();
+  state = {
+    navOpen: false
+  };
+
+  toggleNav = () => {
+    this.setState(prevState => ({
+      navOpen: !prevState.navOpen
+    }));
   };
 
   render() {
     return (
       <div className="Banner">
-        <div className="navitems">
+        <button className="nav-toggle" onClick={this.toggleNav}>☰</button>
+        <div className={`navitems ${this.state.navOpen ? 'open' : ''}`}>
+         
           <ul>
             <li>
               <Link

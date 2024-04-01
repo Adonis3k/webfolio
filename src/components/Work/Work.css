@@ -7,9 +7,10 @@
 .Work-Header{
   font-size: 4rem;
   padding-left: 4rem;
+  padding-top: 2.5rem;
   color:rgb(47, 255, 0);
   position: relative;
-  z-index: 1000;  
+  z-index: 1;  
   
 }
 

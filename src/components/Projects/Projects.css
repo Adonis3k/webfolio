@@ -2,8 +2,9 @@
   {
     font-size: 4rem;
     padding-left: 4rem;
+    padding-top:2.5rem;
     position: relative;
-    z-index: 1000;  
+    z-index: 10;  
     color:rgb(47, 255, 0);
   }
 
