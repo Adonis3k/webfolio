@@ -6,6 +6,7 @@ class Header extends Component {
   state = { isOpen: false }; // Correctly named state
 
   toggleNav = () => {
+    console.log("Toggling nav");
     this.setState(prevState => ({
       isOpen: !prevState.isOpen // Toggles the state
     }));

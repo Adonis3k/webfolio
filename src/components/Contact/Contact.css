@@ -3,7 +3,7 @@
   z-index: 1;
 }
 .app-title span {
-  font-size: 2rem; /* Default font size */
+  font-size: 1rem; /* Default font size */
   color: #ffff;
 }
 
@@ -50,7 +50,7 @@
   }
   
   .contactContainer {
-    flex:  1 700px;
+    flex:  1 600px;
    width: auto;
   }
   
@@ -173,7 +173,7 @@
   .app-form-button {
     background: none;
     border: none;
-    color: #90f6d7;
+    color:rgb(47, 255, 0);
     font-size: 14px;
     cursor: pointer;
     outline: none;
@@ -195,7 +195,7 @@
   
     .app-title {
       flex-direction: row;
-      color: #74c54f;
+      color:rgb(47, 255, 0);
     }
   
     .app-title span {
