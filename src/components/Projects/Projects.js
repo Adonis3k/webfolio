@@ -93,7 +93,7 @@ const Projects = () => {
 
 </div>
 <div className="author3">
-<p>#Ai #nodejs #knex #Posgres #SQL </p>
+<p>#AI #nodejs #knex #Posgres #SQL </p>
 </div>
                                       </div>
                                     </div>       

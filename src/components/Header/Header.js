@@ -3,22 +3,18 @@ import { Link } from 'react-scroll';
 import './Header.css';
 
 class Header extends Component {
-  state = { isOpen: false }; // Correctly named state
+  state = { isOpen: false };
 
-  toggleNav = () => {
-    console.log("Toggling nav");
+ toggleNav = () => {
     this.setState(prevState => ({
-      isOpen: !prevState.isOpen // Toggles the state
+      isOpen: !prevState.isOpen
     }));
   };
 
   render() {
     return (
       <div className="Banner">
-        {/* Button to toggle navigation */}
         <button className="nav-toggle" onClick={this.toggleNav}>☰</button>
-
-        {/* Conditional class application based on state */}
         <div className={`navitems ${this.state.isOpen ? 'open' : ''}`}> 
           <ul>
             <li>

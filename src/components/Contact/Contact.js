@@ -40,7 +40,7 @@ function ContactForm() {
               <div className="app-title">
                 CONTACT ME
               </div>
-              <div className="app-contact">CALL:917-860-5570 </div>
+              <div className="app-contact">C: 917-860-5570 </div>
             </div>
             <div className="screen-body-item">
           
@@ -58,8 +58,8 @@ function ContactForm() {
                   <ValidationError prefix="Message" field="message" errors={state.errors} />
                 </div>
                 <div className="app-form-group buttons">
-                <button type="button" className="app-form-button" onClick={handleCancel}>CANCEL</button>
-                      <button type="submit" className="app-form-button">SEND</button> </div>
+                <button type="button" className="app-form-button" onClick={handleCancel}>RESET</button>
+                      <button type="submit" className="app-form-button-send">SEND</button> </div>
                       </div>
                     
                 </form>
