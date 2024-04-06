@@ -34,7 +34,6 @@ class Header extends Component {
                 to="work-section"
                 smooth={true}
                 duration={1000}
-               
               >
                 Work
               </Link>
@@ -61,7 +60,7 @@ class Header extends Component {
             </li>
             <li>
             <a
-                href="/Resume/Resume.pdf"
+                href='https://drive.google.com/file/d/1mVGqEBJEU6QcD7wdoc3XDHB1rvx4Zif4/view'
                 target="_blank"
                 rel="noopener noreferrer"
                 className="resume-button"

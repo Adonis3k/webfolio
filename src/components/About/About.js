@@ -8,7 +8,7 @@ const About = () => {
     <div className="about-section">
       {/* <ParticlesBg type="random" bg={true} className="particles" /> */}
       <div className='aboutme'>About me:</div> 
-      <p>
+      
 
 I am a certified Project Management Professional (PMP®) and 
 Disciplined Agile Scrum Master (DASM®) with a strong focus on 
@@ -27,7 +27,7 @@ My track record includes successfully managing the renovation of a
 satellite health clinic and orchestrating the grand opening of 
 "The National Geographic Encounter: Ocean Odyssey" in Times Square. 
 I bring a unique blend of project management acumen and technical proficiency 
-to drive excellence in software development and engineering environments.</p>
+to drive excellence in software development and engineering environments.
     </div> 
    
    
