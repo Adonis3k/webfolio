@@ -8,11 +8,8 @@ function ContactForm() {
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
 
-  const handleCancel = () => {
-    setName('');
-    setEmail('');
-    setMessage('');
-  };
+
+
 
   if (state.succeeded) {
     return <div className='thanks'><h1>Thanks for the note!</h1></div>;
@@ -58,7 +55,6 @@ function ContactForm() {
                   <ValidationError prefix="Message" field="message" errors={state.errors} />
                 </div>
                 <div className="app-form-group buttons">
-                <button type="button" className="app-form-button" onClick={handleCancel}>RESET</button>
                       <button type="submit" className="app-form-button-send">SEND</button> </div>
                       </div>
                     

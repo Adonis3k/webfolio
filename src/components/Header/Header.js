@@ -3,13 +3,16 @@ import { Link } from 'react-scroll';
 import './Header.css';
 
 class Header extends Component {
-  state = { isOpen: false };
-
- toggleNav = () => {
+  constructor(props) {
+    super(props);
+    this.state = { isOpen: false };
+    this.toggleNav = this.toggleNav.bind(this);
+  }
+  toggleNav() {
     this.setState(prevState => ({
       isOpen: !prevState.isOpen
     }));
-  };
+  }
 
   render() {
     return (
@@ -22,7 +25,6 @@ class Header extends Component {
                 to="about-section"
                 smooth={true}
                 duration={1000}
-                onClick={this.handleNavLinkClick}
               >
                 About
               </Link>
@@ -32,7 +34,7 @@ class Header extends Component {
                 to="work-section"
                 smooth={true}
                 duration={1000}
-                onClick={this.handleNavLinkClick}
+               
               >
                 Work
               </Link>
@@ -42,7 +44,7 @@ class Header extends Component {
                 to="Projects-section"
                 smooth={true}
                 duration={1000}
-                onClick={this.handleNavLinkClick}
+                
               >
                 Projects
               </Link>
@@ -52,13 +54,13 @@ class Header extends Component {
                 to="Contact"
                 smooth={true}
                 duration={1000}
-                onClick={this.handleNavLinkClick}
+               
               >
                 Contact
               </Link>
             </li>
             <li>
-              <a
+            <a
                 href="/Resume/Resume.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
