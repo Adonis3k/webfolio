@@ -1,14 +1,14 @@
 .Footer-container {
   
    /* */
-    margin-top: -3rem;
+    margin-top: -4rem;
   display: grid;
   place-items: center;
   color: #ffffff;
   text-decoration: none; 
   position: relative;
   z-index: 1;
-
+padding-bottom: 2rem;
 
 }
 
