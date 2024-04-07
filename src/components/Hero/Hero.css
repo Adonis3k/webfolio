@@ -30,3 +30,21 @@
 .p {
   padding-top: 2rem;
 }
+@media (max-width: 768px) {
+  .hero-container {
+    width: 85%;
+    padding: 4rem; /* Adjust padding for smaller screens */
+    
+  }
+
+  .adonisMadera {
+    font-size: 2rem; /* Adjust font size for smaller screens */
+  }
+
+  .big-heading {
+    font-size: 1rem; /* Adjust font size for smaller screens */
+  }
+  .myNameis {
+    font-size: 1.5rem;
+  }
+}

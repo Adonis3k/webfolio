@@ -21,21 +21,22 @@
   
 
  }
- @media (min-width: 320px) {
-  /* Styles for viewport width >= 320px */
-}
-
-@media (min-width: 375px) {
-  /* Styles for viewport width >= 375px */
-}
-
-@media (min-width: 425px) {
-  /* Styles for viewport width >= 425px */
-}
-
-@media (min-width: 768px) {
-  /* Styles for viewport width >= 768px */
-}
+ 
   
+ @media (max-width: 768px) {
+  .about-section {
+    width: 85%;
+    padding: 4rem; /* Adjust padding for smaller screens */
+    
+  }
 
+  .aboutme{
+    font-size: 2rem; /* Adjust font size for smaller screens */
+  }
+
+  .big-heading {
+    font-size: 1rem; /* Adjust font size for smaller screens */
+  }
+
+}
   

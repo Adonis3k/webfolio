@@ -1,6 +1,7 @@
 .Contact {
   position: relative;
   z-index: 1;
+  
 }
 .app-title span {
   font-size: 1rem; /* Default font size */
@@ -194,11 +195,14 @@
   }
   
 
-  @media screen and (max-width: 1040px) {
+  @media (max-width: 768px){
     .screen-body {
       flex-direction: column;
+      
     }
-  
+    .background  {
+      padding:2rem;
+    }
     .screen-body-item.left {
       margin-bottom: 30px;
     }

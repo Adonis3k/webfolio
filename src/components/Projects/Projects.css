@@ -98,3 +98,26 @@ margin-bottom: 0rem;
   color: #081a64;
   margin-top: 6rem;
 }
+@media (max-width: 768px) {
+  .projectsContainer {
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr)); /* Keep card size same for smaller screens */
+    padding: 50px; /* Maintain padding for smaller screens */
+    grid-gap: 2em; /* Maintain grid gap for smaller screens */
+  }
+
+  .projectHeader {
+    font-size: 2.5rem; /* Reduce font size for smaller screens */
+    padding-left: .5rem; /* Adjust padding for smaller screens */
+  }
+
+  .card .content {
+    padding: 1rem; /* Maintain padding for smaller screens */
+    a header h2 {
+      font-size: 20px; /* Keep font size same for smaller screens */
+    }
+  }
+}
+      
+    
+  
+
