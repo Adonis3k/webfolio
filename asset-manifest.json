@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/webfolio/static/css/main.a349dbd1.css",
+    "main.css": "/webfolio/static/css/main.68bfe332.css",
     "main.js": "/webfolio/static/js/main.06ed8312.js",
     "static/js/488.0288e6ab.chunk.js": "/webfolio/static/js/488.0288e6ab.chunk.js",
     "static/media/brain.png": "/webfolio/static/media/brain.0d737c1c3beac52cb4e8.png",
@@ -10,12 +10,12 @@
     "static/media/RobotoMono-VariableFont_wght.ttf": "/webfolio/static/media/RobotoMono-VariableFont_wght.e14e25b7c497634efdfe.ttf",
     "static/media/RoboFriends.png": "/webfolio/static/media/RoboFriends.17d7d91985dd5f2b76d6.png",
     "index.html": "/webfolio/index.html",
-    "main.a349dbd1.css.map": "/webfolio/static/css/main.a349dbd1.css.map",
+    "main.68bfe332.css.map": "/webfolio/static/css/main.68bfe332.css.map",
     "main.06ed8312.js.map": "/webfolio/static/js/main.06ed8312.js.map",
     "488.0288e6ab.chunk.js.map": "/webfolio/static/js/488.0288e6ab.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a349dbd1.css",
+    "static/css/main.68bfe332.css",
     "static/js/main.06ed8312.js"
   ]
 }
