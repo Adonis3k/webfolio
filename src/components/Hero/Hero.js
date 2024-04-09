@@ -8,13 +8,13 @@ const Hero = () => {
       <div className="adonisMadera">ADONIS MADERA</div>
       <div className="big-heading">Experienced Fullstack Web Developer & Software Engineer, PMP®, Disciplined Agile® Scrum Master </div>
       <div className='p'>
-        I’m a software engineer specializing in building and desgining
-        functional web applications. 
-        Currently, I’m focused on building accessible, patient health care-centered projects
-        at{' '}
-        <a href="https://settlementhealth.org/" target="_blank" rel="noreferrer">
-          Settlement Health.
-        </a>
+        
+As a software engineer with over five years of diverse experience in 
+project management and operations, I've led complex projects across various industries, 
+from Entertainment to Healthcare. Currently my focus is on developing accessible and impactful mobile and web 
+applications tailored for patient care. 
+       
+        
       </div>
     </div>
   );

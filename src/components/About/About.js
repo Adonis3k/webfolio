@@ -24,7 +24,7 @@ my technical skills extend to HTML, CSS, JavaScript, and Python.
 Currently pursuing AWS Cloud Practitioner Certification, 
 I am committed to staying abreast of evolving technologies. 
 My track record includes successfully managing the renovation of a 
-satellite health clinic and orchestrating the grand opening of 
+satellite health clinic and orchestrating the grand opening and ongoing day to day operations
 "The National Geographic Encounter: Ocean Odyssey" in Times Square. 
 I bring a unique blend of project management acumen and technical proficiency 
 to drive excellence in software development and engineering environments.
