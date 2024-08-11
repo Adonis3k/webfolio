@@ -1,5 +1,6 @@
 
 import React from 'react';
+import bestsubscreenshot from './bestsubscreenshot.png';
 import FaceIdentifier from './FaceIdentifier.png';
 import RoboFriends from './RoboFriends.png';
 import AWSLab from './AWSLab.png';
@@ -15,6 +16,29 @@ const Projects = () => {
                                     
                                     {/* First Card */}
                                     <div className="card"> 
+                                      <div className="content">
+                                      <section style={{ position: 'relative', overflow: 'hidden', height: '12rem' }}>
+                                            <img style={{ paddingTop: '1rem', width: '100%', transform: 'translateY(-15%)' }} alt='bestsubscreenshot' src={bestsubscreenshot}/>
+                                          </section>
+                                      <a href="https://bestsubs.nyc/">
+                                          <header>
+                                            <h2>BEST Subs NYC</h2>
+                                            <span>E-Commerce, Design, Build, Deploy</span>
+                                          </header> 
+                                          </a>
+                                        <div className='projectCard1'>
+<h4>Engineered a user-friendly website for BESTSubs NYC, enabling customers to explore menu offerings and engage with the brand online.</h4>
+<h4>User Experience Optimization: Implemented dynamic user interface elements and responsive design to enhance the customer experience across all devices.</h4>
+<h4>Real-Time Analytics: Employed real-time analytics to monitor website performance, customer behavior, and engagement trends, ensuring data-driven decision-making.</h4>
+                                      </div>                                                                                                                     <div className="author">
+                                     <div className="author"> <p>#ECommerce #WebDevelopment #JavaScript </p>
+                                     </div>
+                                    </div>
+                                        
+                                      </div>
+                                    </div> 
+                                     {/* Second Card */}
+                                     <div className="card"> 
                                       <div className="content">
                                       <section style={{ position: 'relative', overflow: 'hidden', height: '12rem' }}>
                                             <img style={{ paddingTop: '1rem', width: '100%', transform: 'translateY(-15%)' }} alt='FaceIdentifier' src={FaceIdentifier}/>
@@ -36,7 +60,7 @@ const Projects = () => {
                                         
                                       </div>
                                     </div> 
-                                     {/* Second Card */}
+                                     {/* Third Card*/}
                                     <div className="card">
                                       <div className="content">
                                       <section style={{ position: 'relative', overflow: 'hidden', height: '12rem' }}>
