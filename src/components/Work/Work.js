@@ -6,30 +6,49 @@ const Work = () => {
     <div id="work-section">
       <div className= "Work-Header">WORK</div>
       <div className="workContainer">
-                                    
+
+                  <div className="card"> 
+          <div className="content">        
+          <a href="https://www.metaframetech.com/">    
+          <header>
+                <span>October 2024 to Present  
+                </span>
+                <span>DevOps Engineer</span>
+                <h2>Metaframe Technology Solutions </h2> 
+              </header>
+              </a>
+              <div className='points'>
+                <h4>
+               Managed production servers for hedge funds in the finance and technology sectors, 
+               ensuring secure, high-availability infrastructure with 99.999% uptime using AWS and Azure solutions. </h4>
+                <h4>Implemented AMI backups and automated snapshot policies for critical instances, ensuring robust disaster recovery and minimizing downtime risks. </h4>
+                <h4> Administered storage for test instances, optimizing resource allocation to support system updates and enhance testing environment efficiency. </h4>
+              </div>
+          </div>
+        </div> 
+
         {/* First Card */}
 
         <div className="card"> 
           <div className="content">        
           <a href="https:settlementhealth.org">    
           <header>
-                <span>Current Employer 
+                <span>May 2021 - January 2025 
                 </span>
-                <span>Project Manager</span>
+                <span>IT Project Manager</span>
                 <h2>Settlement Health & Medical </h2> 
               </header>
               </a>
               <div className='points'>
                 <h4>
-                  Led facility modernization and clinic renovation projects, ensuring compliance and enhancing longevity. 
-                </h4>
-                <h4>Continuously improved upon building infrastructure by incorporating modernization processes and preventive maintenance. 
-                </h4>
-                
+                Managed cloud-based IT infrastructure for a healthcare facility, ensuring regulatory compliance (OSHA, ADA, HIPAA), operational uptime, and business continuity using AWS services (EC2, S3, CloudWatch).</h4>
+                <h4>Collaborated with MSPs and internal teams to support networking, endpoint management, server infrastructure, and cloud-integrated access control with real-time monitoring and audit logging.</h4>
+                <h4>Optimized vendor management and reporting, overseeing AWS reserved instance planning, SaaS renewals, and licensing, while building KPI dashboards with AWS QuickSight and Excel automation.</h4>
               </div>
           </div>
-           {/* Second Card */}
         </div> 
+
+        {/* Second Card */}
         <div className="card">
           <div className="content">
             <a href="https://www.youtube.com/channel/UCZBxeaYxXzCBOd4MsztPMGQ">
@@ -39,12 +58,10 @@ const Work = () => {
                 <h2>National Geographic Encounter</h2>
                 </header>
                 </a>
-              <section>
-              
-               
-                <h4> Reduced costs by $230,000 annually through the hiring, training, and on-going development of in-house staff for, Maintenance, Cleaning, and Security functions.</h4> 	
-                <h4> Supervised the maintenance staff and vendors that support employees and guests. Implemented procedures and policies.</h4> 	
-
+              <section>   
+                <h4>Achieved $230K+ in annual savings by hiring and training in-house IT teams and implementing secure, full-system AWS cloud backups with preventive maintenance schedules. </h4>
+                <h4>Promoted from Executive Management Coordinator to Director of Operations, progressing through Project Manager in recognition of exemplary performance; directly managed maintenance, security, and cleaning teams.</h4> 	
+                <h4>Developed SOPs for AWS-based system monitoring and incident response, ensuring business continuity across 365-day operations.</h4>
               </section>
            
         
@@ -57,18 +74,15 @@ const Work = () => {
           <a href="https://emerge212.com/">
               <header>
                 <span>February 2015 to March 2017</span>
-                <span>Facility Manager</span>
+                <span>IT Help Desk Tech</span>
                 <h2>SL Green / Emerge212</h2>
               </header>
               </a>
               <section>
                 
-                <h4>Managed FOH operations across a multilevel business complex, totaling 30,000 sq ft with over 200 clients.
+                <h4>Provided customer support to over 200 clients across a 30,000 sq ft multilevel business complex, troubleshooting hardware, software, and network issues to ensure minimal downtime.
                 </h4>
-                <h4>
-                Collaborated directly with building facilities management regarding property maintenance and staffing to ensure
-the business center ran optimally and created a highly hospitable environment for guests.
-                </h4>
+                <h4>Partnered with management and clients to address all business center service needs, including onboarding and offboarding processes, user account setup, and permissions management for 60+ companies. </h4>
                
               </section>
             

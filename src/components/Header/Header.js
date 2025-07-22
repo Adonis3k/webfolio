@@ -60,7 +60,7 @@ class Header extends Component {
             </li>
             <li>
             <a
-                href='https://drive.google.com/file/d/1mVGqEBJEU6QcD7wdoc3XDHB1rvx4Zif4/view'
+                href='https://docs.google.com/document/d/18npIkNBlw5Jnvh_oQJhyLut-fuyp0BjbUiY0IK-GVHo/edit?usp=sharing'
                 target="_blank"
                 rel="noopener noreferrer"
                 className="resume-button"

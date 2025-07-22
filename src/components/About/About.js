@@ -11,7 +11,7 @@ const About = () => {
       
 
 I am a certified Project Management Professional (PMP®) and 
-Disciplined Agile Scrum Master (DASM®) with a strong focus on 
+Certified AWS Solutions Architect with a strong focus on 
 software development and engineering. With over 5 years of 
 project management experience, I excel in seamlessly coordinating 
 cross-functional teams and third-party vendors, ensuring successful 
@@ -21,7 +21,7 @@ project delivery within scope and budget.
 
 Proficient in project management tools like Jira, Basecamp, and Asana, 
 my technical skills extend to HTML, CSS, JavaScript, and Python. 
-Currently pursuing AWS Cloud Practitioner Certification, 
+As a Certified PMP® & AWS Cloud Solutions Architect, 
 I am committed to staying abreast of evolving technologies. 
 My track record includes successfully managing the renovation of a 
 satellite health clinic and orchestrating the grand opening and ongoing day to day operations
